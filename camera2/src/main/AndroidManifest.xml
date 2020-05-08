@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="thanatos.android.camera.camera2">
+
+    <application>
+        <provider
+            android:enabled="true"
+            android:exported="false"
+            android:authorities="cameraSupport.camera2"
+            android:name=".impl.Camera2Initializer"/>
+    </application>
+</manifest>

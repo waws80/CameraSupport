@@ -1,0 +1,5 @@
+rootProject.name='CameraSupport'
+include ':app'
+include ':camera2'
+include ':camera-core'
+include ':camera-view'
